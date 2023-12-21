@@ -1,0 +1,159 @@
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px;
+    padding: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+
+
+}
+
+* {
+
+    
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho {
+    
+    margin: 15px;
+    background-color: #2F2D2D;
+    margin-top: -100px;
+    margin-left: -150px;
+    padding-left: 15px;
+    align-items: center;
+    width: 180%;
+    height: 140px;
+
+
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
+.bloco-texto {
+    display: flex;
+    margin: 0px;
+    margin-top: 0px;
+    justify-content: space-between;
+
+
+}
+
+.bloco-texto ul {
+    margin-top: 50px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.u {
+    margin-left: -350px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+    padding: 20px;
+    padding-left: 10px;
+    margin: 0px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+
+.bloco-texto2 li {
+    border: 2px solid white;
+    background-color: white;
+    margin: 20px;
+    margin-left: -70px;
+    border-radius: 10px;
+
+}
+
+
+.pesquisa {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: -220px;
+    margin-top: 25px;
+    padding: 5px;
+    background-color: white;
+
+
+}
+
+.bloco-pesquisa li {
+    display: flex;
+
+    margin-left: 100px;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+
+
+.bloco-carrinho li {
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+
+
+
+.container-principal{
+    
+    
+}
+
+
+.texto{
+    background-color: #00ff19;
+    margin-left: -100px;
+    margin: 0px;
+    width: 200%;
+    height: 200px;
+    margin-top: -60px;
+    margin-left: -80px;
+    padding-left: -250px;
+    
+}
+
+
+.text{
+    margin-top: 150px;
+    margin-left: 800px;
+    padding-top: 80px;
+}
+
+
+
+
+.img2{
+    display: flex;
+    
+}
+
+.img3{
+    display: flex;
+}
