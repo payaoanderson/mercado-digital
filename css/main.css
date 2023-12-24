@@ -403,6 +403,53 @@ body {
 }
 
 
+.img13{
+    margin-left: 540px;
+    margin-top: 150px;
+}
+
+.texto13{
+    margin-left: 500px;
+}
+
+.compra13{
+    margin-left: 285px;
+    margin-top: 20px;
+    background-color: #00ff19;
+    width: 0px;
+    border-radius: 10px;
+
+}
+
+.img14{
+    margin-left: 790px;
+    margin-top: -210px;
+}
+
+.texto14{
+    margin-left: 790px;
+}
+
+.compra14{
+    margin-left: 400px;
+    margin-top: 20px;
+    background-color: #00ff19;
+    width: 0px;
+    border-radius: 5px;
+}
+
+#rodape{
+    margin-top: 200px;
+    margin-left: -805px;
+    border: 2px solid #00ff19;
+    width: 1800px;
+    padding: 50px;
+    padding-left: 1500px;
+    background-color: #00ff19;
+    border-radius: 10px;
+}
+
+
 
 
 
