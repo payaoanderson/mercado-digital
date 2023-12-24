@@ -1,5 +1,5 @@
 body {
-    /* overflow-x: hidden;*/
+    
     font-family: 'Montserrat', sans-serif;
     margin: 50px;
     padding: 50px;
@@ -14,7 +14,7 @@ body {
 }
 
 * {
-    
+
 
 
     text-decoration: none;
@@ -25,14 +25,15 @@ body {
 }
 
 #cabecalho {
-    
+    position: relative;
+
     margin: 15px;
     background-color: #2F2D2D;
     margin-top: -100px;
     margin-left: -150px;
     padding-left: 15px;
     align-items: center;
-    width: 180%;
+    width: 190%;
     height: 140px;
 
 
@@ -130,87 +131,87 @@ body {
     background-color: #00ff19;
     margin-left: -100px;
     margin: 0px;
-    width: 200%;
+    width: 187%;
     height: 200px;
     margin-top: -60px;
-    margin-left: -80px;
-    padding-left: -250px;
+    margin-left: -100px;
+    padding-left: -210px;
 
 }
 
 
 .text {
-    
+
     margin-top: 150px;
     margin-left: 800px;
     padding-top: 80px;
 }
 
 
-.imagens{
+.imagens {
     display: block;
-    
+
 
 }
 
 
-.img1{
+.img1 {
     margin-top: 50px;
     margin-left: 550px;
 }
 
-.texto1{
+.texto1 {
     margin-left: 550px;
 }
 
-.compra1{
+.compra1 {
     margin-left: 550px;
     margin-top: 10px;
     background-color: #00ff19;
     width: 100px;
     padding: 10px;
     border-radius: 10px;
-    
 
-    
+
+
 
 }
 
 
-.img2{
+.img2 {
     margin-left: 800px;
     margin-top: -210px;
 }
 
 
-.texto2{
+.texto2 {
     margin-left: 800px;
     margin-top: -30px;
 }
 
-.compra2{
+.compra2 {
     margin-left: 400px;
     margin-top: 20px;
     background-color: #00ff19;
     width: 0px;
     border-radius: 5px;
-    
+
 
 }
 
 
 
-.img3{
+.img3 {
     margin-left: 90%;
     margin-top: -190px;
 }
 
-.texto3{
+.texto3 {
     margin-left: 90%;
 }
 
 
-.compra3{
+.compra3 {
     margin-left: 90%;
     margin-top: 20px;
     background-color: #00ff19;
@@ -221,18 +222,18 @@ body {
 
 
 
-.img4{
-     margin-left: 110%;
-     margin-top: -310px;
+.img4 {
+    margin-left: 110%;
+    margin-top: -310px;
 }
 
 
 
-.texto4{
-     margin-left: 110%;
+.texto4 {
+    margin-left: 110%;
 }
 
-.compra4{
+.compra4 {
     margin-left: 110%;
     margin-top: 20px;
     background-color: #00ff19;
@@ -242,17 +243,17 @@ body {
 
 
 
-.img5{
+.img5 {
     margin-left: 540px;
     margin-top: 250px;
 }
 
-.texto5{
+.texto5 {
     margin-left: 540px;
 
 }
 
-.compra5{
+.compra5 {
     margin-left: 280px;
     margin-top: 30px;
     background-color: #00ff19;
@@ -261,21 +262,21 @@ body {
     padding: -5px;
 }
 
-.img6{
+.img6 {
     margin-left: 800px;
     margin-top: -200px;
 }
 
 
-.texto6{
+.texto6 {
     margin-left: 800px;
 
 }
 
-.compra6{
+.compra6 {
     margin-left: 400px;
     background-color: #00ff19;
-    width:  0px;
+    width: 0px;
     padding: 0px;
     margin-top: 20px;
     border-radius: 10px;
@@ -283,18 +284,18 @@ body {
 }
 
 
-.img7{
+.img7 {
     margin-left: 1000px;
     margin-top: -200px;
 }
 
 
-.texto7{
+.texto7 {
     margin-left: 1040px;
 }
 
 
-.compra7{
+.compra7 {
     margin-left: 520px;
     margin-top: 20px;
     background-color: #00ff19;
@@ -304,18 +305,18 @@ body {
 }
 
 
-.img8{
+.img8 {
     margin-left: 110%;
     margin-top: -220px;
 }
 
 
-.texto8{
+.texto8 {
     margin-left: 110%;
 }
 
 
-.compra8{
+.compra8 {
     margin-left: 630px;
     margin-top: 40px;
     border-radius: 10px;
@@ -325,17 +326,17 @@ body {
 }
 
 
-.img9{
-  margin-left: 535px;  
-  margin-top: 130px;
-    
+.img9 {
+    margin-left: 535px;
+    margin-top: 130px;
+
 }
 
-.texto9{
-  margin-left: 460px;
+.texto9 {
+    margin-left: 460px;
 }
 
-.compra9{
+.compra9 {
     margin-left: 280px;
     margin-top: 20px;
     background-color: #00ff19;
@@ -344,17 +345,17 @@ body {
 }
 
 
-.img10{
+.img10 {
     margin-left: 740px;
     margin-top: -220px;
 }
 
 
-.texto10{
+.texto10 {
     margin-left: 750px;
 }
 
-.compra10{
+.compra10 {
     margin-left: 385px;
     margin-top: 20px;
     background-color: #00ff19;
@@ -363,17 +364,17 @@ body {
 }
 
 
-.img11{
+.img11 {
     margin-left: 1000px;
     margin-top: -220px;
 }
 
 
-.texto11{
+.texto11 {
     margin-left: 1000px;
 }
 
-.compra11{
+.compra11 {
     margin-left: 515px;
     margin-top: 20px;
     background-color: #00ff19;
@@ -384,17 +385,17 @@ body {
 
 
 
-.img12{
+.img12 {
     margin-left: 1250px;
     margin-top: -210px;
 }
 
 
-.texto12{
+.texto12 {
     margin-left: 1250px;
 }
 
-.compra12{
+.compra12 {
     margin-left: 625px;
     margin-top: 20px;
     background-color: #00ff19;
@@ -403,16 +404,16 @@ body {
 }
 
 
-.img13{
+.img13 {
     margin-left: 540px;
     margin-top: 150px;
 }
 
-.texto13{
+.texto13 {
     margin-left: 500px;
 }
 
-.compra13{
+.compra13 {
     margin-left: 285px;
     margin-top: 20px;
     background-color: #00ff19;
@@ -421,16 +422,16 @@ body {
 
 }
 
-.img14{
+.img14 {
     margin-left: 790px;
     margin-top: -210px;
 }
 
-.texto14{
+.texto14 {
     margin-left: 790px;
 }
 
-.compra14{
+.compra14 {
     margin-left: 400px;
     margin-top: 20px;
     background-color: #00ff19;
@@ -438,64 +439,18 @@ body {
     border-radius: 5px;
 }
 
-#rodape{
+#rodape {
     margin-top: 200px;
     margin-left: -805px;
     border: 2px solid #00ff19;
-    width: 1800px;
+    width: 113%;
     padding: 50px;
     padding-left: 1500px;
     background-color: #00ff19;
     border-radius: 10px;
 }
 
-.img15{
+.img15 {
     margin-top: 150px;
     margin-left: 1020px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
