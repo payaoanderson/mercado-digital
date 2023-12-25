@@ -25,12 +25,12 @@ body {
 }
 
 #cabecalho {
-    position: relative;
+    position: fixed;
 
     margin: 15px;
     background-color: #2F2D2D;
     margin-top: -100px;
-    margin-left: -150px;
+    margin-left: -1050px;
     padding-left: 15px;
     align-items: center;
     width: 190%;
@@ -127,7 +127,7 @@ body {
 
 
 .texto {
-
+    position: static;
     background-color: #00ff19;
     margin-left: -100px;
     margin: 0px;
@@ -149,7 +149,9 @@ body {
 
 
 .imagens {
+    position: static;
     display: block;
+    margin-top: 50px;
 
 
 }
@@ -440,14 +442,25 @@ body {
 }
 
 #rodape {
+    position: static;
     margin-top: 200px;
     margin-left: -805px;
     border: 2px solid #00ff19;
     width: 113%;
-    padding: 50px;
+    padding: 11%;
     padding-left: 1500px;
     background-color: #00ff19;
     border-radius: 10px;
+
+
+}
+
+.nome{
+    font-size: 9px;
+    border: 2px solid red;
+    width: 140px;
+    padding: 4px;
+    background-color: red;
 }
 
 .img15 {
