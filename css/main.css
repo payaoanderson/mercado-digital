@@ -1,5 +1,5 @@
 body {
-    
+
     font-family: 'Montserrat', sans-serif;
     margin: 50px;
     padding: 50px;
@@ -26,10 +26,10 @@ body {
 
 #cabecalho {
     position: fixed;
-
+    box-shadow: 5px 5px 5px 5px red;
     margin: 15px;
     background-color: #2F2D2D;
-    margin-top: -100px;
+    margin-top: -99.6px;
     margin-left: -1050px;
     padding-left: 15px;
     align-items: center;
@@ -136,7 +136,7 @@ body {
     margin-top: -60px;
     margin-left: -100px;
     padding-left: -210px;
-
+    box-shadow: 5px 5px 5px 5px red;
 }
 
 
@@ -451,11 +451,12 @@ body {
     padding-left: 1500px;
     background-color: #00ff19;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px red;
 
 
 }
 
-.nome{
+.nome {
     font-size: 9px;
     border: 2px solid red;
     width: 140px;
