@@ -39,15 +39,18 @@
                 <div class="bloco-pesquisa">
                     <ul>
                         <li>
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            
                         </li>
                     </ul>
                 </div>
 
                 <div class="pesquisa">
-                    <form action="mais-pesquisado.html">
-                        <input type="text" value="pesquisa">
-                    </form>
+                    <form action="mais-pesquisado.html" onsubmit="return enviarFormulario()" id="meuFormulario">
+                        <input type="text" id="meuCampo" placeholder="pesquisa" onkeydown="handleKeyDown(event)" />
+                        <input type="submit" value="seach" id="botaoEnviar" />
+                      </form>
+                   
+                   
                 </div>
 
             </div>
