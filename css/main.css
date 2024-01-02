@@ -29,8 +29,8 @@ body {
     margin: 15px;
     background-color: #2F2D2D;
     margin-top: -99.6px;
-    margin-left: -50px;
-    padding-left: 15px;
+    margin-left: -90px;
+    padding-left: -150px;
     align-items: center;
     width: 190%;
     height: 140px;
@@ -135,7 +135,7 @@ body {
     width: 187%;
     height: 200px;
     margin-top: -60px;
-    margin-left: 50px;
+    margin-left: -100px;
     padding-left: -210px;
     box-shadow: 5px 5px 5px 5px red;
 }
