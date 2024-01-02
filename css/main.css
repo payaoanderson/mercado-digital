@@ -24,16 +24,17 @@ body {
 }
 
 #cabecalho {
-    /*position: ;*/
+    position: fixed;
     box-shadow: 5px 5px 5px 5px red;
     margin: 15px;
     background-color: #2F2D2D;
-    margin-top: -99.6px;
-    margin-left: -90px;
-    padding-left: -150px;
+    margin-top: -120px;
+    margin-left: -1000px;
+    padding-left: -1050px;
     align-items: center;
     width: 190%;
     height: 140px;
+    text-align: center;
 
 
 
@@ -128,23 +129,26 @@ body {
 
 
 .texto {
-    position: static;
+    position: fixed;
     background-color: #00ff19;
     margin-left: -100px;
     margin: 0px;
     width: 187%;
     height: 200px;
-    margin-top: -60px;
-    margin-left: -100px;
+    margin-top: -300px;
+    margin-left: -500px;
     padding-left: -210px;
     box-shadow: 5px 5px 5px 5px red;
+    text-align: center
+
 }
 
 
 .text {
-
-    margin-top: 150px;
-    margin-left: 800px;
+    
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -850px;
     padding-top: 80px;
 }
 
@@ -152,7 +156,7 @@ body {
 .imagens {
     position: static;
     display: block;
-    margin-top: 50px;
+    margin-top: 350px;
 
 
 }

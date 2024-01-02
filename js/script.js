@@ -1,1 +1,1 @@
-alert('clique no ok para abrir o site');
+//alert('clique no ok para abrir o site');//
