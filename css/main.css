@@ -24,12 +24,12 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
+    /*position: ;*/
     box-shadow: 5px 5px 5px 5px red;
     margin: 15px;
     background-color: #2F2D2D;
     margin-top: -99.6px;
-    margin-left: -1050px;
+    margin-left: -50px;
     padding-left: 15px;
     align-items: center;
     width: 190%;
@@ -135,7 +135,7 @@ body {
     width: 187%;
     height: 200px;
     margin-top: -60px;
-    margin-left: -100px;
+    margin-left: 50px;
     padding-left: -210px;
     box-shadow: 5px 5px 5px 5px red;
 }
