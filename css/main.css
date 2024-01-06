@@ -480,6 +480,18 @@ body {
 
 
 
+
+
+
+
+
+/*estilo mobile*/
+
+
+
+
+
+
 @media(max-width: 767px){
     #cabecalho{
         margin: 10px;
@@ -512,6 +524,7 @@ body {
         margin-left: 350px;
         font-size: 20px;
     }
+
 
     
      .imagens{
@@ -583,6 +596,183 @@ body {
 
      }
 
+     .img6{
+        margin-left: 120px;
+     }
+
+     .texto6{
+        margin-left: 120px;
+     }
+
+
+     .compra6{
+        margin-left: 80px;
+     }
+
+
+     .img7{
+        margin-left: -90px;
+        margin-top: 50px;
+     }
+
+
+     .texto7{
+        
+        margin-left: -200px;
+        margin-bottom: 20px;
+        padding-top: 795%;    
+        
+        
+     }
+
+
+     .compra7{
+        margin-left: -110px;
+     }
+
+
+
+
+     .img8{
+        margin-left: -20px;
+        padding-top: 80px;
+     }
+
+
+
+
+     .texto8{
+        margin-left: -20px;
+     }
+
+     .compra8{
+        margin-left: -10px;
+        margin-top: 10px;
+     }
+
+     .img9{
+        margin-left: -230px;
+        margin-top: 70px;
+     }
+
+
+
+
+     .texto9{
+        margin-left: -230px;
+     }
+
+
+
+     .compra9{
+        margin-left: -102px;
+     }
+
+
+     .img10{
+        margin-left: -20px;
+     }
+
+
+
+     .texto10{
+        margin-left: -5px;
+     }
+
+
+     .compra10{
+        margin-left: 1px;
+     }
+
+
+
+     .img11{
+        margin-left: -230px;
+        padding-top: 240px;
+     }
+
+
+
+     .texto11{
+        margin-left: -230px;
+     }
+
+     .compra11{
+        margin-left: -100px;
+     }
+
+
+     .img12{
+        margin-left: -10px;
+     }
+
+
+     .texto12{
+        margin-left: -10px;
+     }
+
+     .compra12{
+        margin-left: 1px;
+     }
+
+
+
+
+     .img13{
+        margin-left: -230px;
+        margin-top: 70px;
+     }
+
+
+
+     .texto13{
+        margin-left: -240px;
+     }
+
+
+
+
+     .compra13{
+        margin-left: -100px;
+     }
+
+
+
+     .img14{
+        margin-left: -5px;
+     }
+
+
+
+
+
+     .texto14{
+        margin-left: 10px;
+     }
+
+
+
+
+
+     .compra14{
+        margin-left: 2px;
+     }
+
+
+
+
+
+     #rodape{
+        margin-left: -1550px;
+        width: 400px;
+        font-size: 12px;
+        margin-top: 60px;
+        
+     }
+
+     .nome{
+        font-size: 8px;
+     }
 
 
 
