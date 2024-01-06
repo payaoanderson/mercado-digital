@@ -467,7 +467,7 @@ body {
 .nome {
     font-size: 9px;
     border: 2px solid red;
-    width: 240px;
+    width: 300px;
     padding: 4px;
     background-color: red;
 }
@@ -492,7 +492,13 @@ body {
 
 
 
-@media(max-width: 767px){
+@media screen and (max-width: 768px){
+
+
+    body{
+        font-size: 14px;
+        max-width: 768px;
+    }
     #cabecalho{
         position: fixed;
         margin: 10px;
@@ -503,7 +509,6 @@ body {
 
     .bloco-texto h2{
         display: none;
-        margin-left: -150px;
 
     }
 
