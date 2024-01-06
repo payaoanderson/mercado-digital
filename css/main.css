@@ -476,3 +476,115 @@ body {
     margin-top: 150px;
     margin-left: 1020px;
 }
+
+
+
+
+@media(max-width: 767px){
+    #cabecalho{
+        margin: 10px;
+        margin-top: -100px;
+        margin-left: -430px;
+
+    }
+
+    .bloco-texto h2{
+        display: none;
+        margin-left: -150px;
+
+    }
+
+
+    .bloco-texto2 li{
+        font-size: 7px;
+
+    }
+    .pesquisa{
+        padding: 1px;
+    }
+
+    #meuFormulario{
+        border-radius: 10px;
+
+    }
+
+    .texto h1{
+        margin-left: 350px;
+        font-size: 20px;
+    }
+
+    
+     .imagens{
+        column-count: 2;
+     }
+
+
+     .img1{
+        margin-left: -80px;
+        width: 50px;
+     }
+
+     .texto1{
+        margin-left: -80px;
+        
+     }
+
+     .compra1{
+        margin-left: -80px;
+        font-size: 15px;
+
+     }
+
+
+     .img2{
+        margin-left: 130px;
+     }
+
+
+     .texto2{
+        margin-left: 130px;
+     }
+
+     .compra2{
+        margin-left: 70px;
+     }
+
+     .img3{
+        margin-left: -90px;
+        margin-top: 120px;
+     }
+
+     .texto3{
+        margin-left: -90px;
+     }
+
+     .compra3{
+        margin-left: -50px;
+     }
+
+
+     .img4{
+        margin-top: -250px;
+     }
+
+
+     .img5{
+        margin-left: -100px;
+        margin-top: 80px;
+     }
+
+
+     .texto5{
+        margin-left: -100px;
+     }
+
+     .compra5{
+        margin-left: -40px;
+
+     }
+
+
+
+
+}
+
