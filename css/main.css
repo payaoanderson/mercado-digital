@@ -126,6 +126,7 @@ body {
 
 
 .container-principal {
+    margin: 0;
              
 }
 
@@ -496,6 +497,7 @@ body {
 
 
     body{
+        overflow-x: hidden;
         font-size: 14px;
         max-width: 768px;
     }
