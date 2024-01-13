@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 1140px;
+    /*text-align: center;*/
 
 
 
@@ -343,7 +344,7 @@ body {
 }
 
 .texto9 {
-    margin-left: 460px;
+    margin-left: 530px;
 }
 
 .compra9 {
@@ -496,6 +497,10 @@ body {
 
     body{
         font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     #cabecalho {
@@ -542,7 +547,8 @@ body {
 
     .imagens {
         column-count: 2;
-        margin-left: 50px;
+        margin-left: 55px;
+    
 
     }
 
@@ -553,7 +559,7 @@ body {
     }
 
     .texto1 {
-        margin-left: -80px;
+        margin-left: -120px;
 
     }
 
@@ -587,7 +593,7 @@ body {
     }
 
     .compra3 {
-        margin-left: -50px;
+        margin-left: -30px;
     }
 
 
@@ -626,14 +632,14 @@ body {
 
 
     .img7 {
-        margin-left: -90px;
+        margin-left: -150px;
         margin-top: 50px;
     }
 
 
     .texto7 {
 
-        margin-left: -200px;
+        margin-left: -400px;
         margin-bottom: 20px;
         padding-top: 1000%;
 
@@ -666,7 +672,7 @@ body {
     }
 
     .img9 {
-        margin-left: -230px;
+        margin-left: -400px;
         margin-top: 70px;
     }
 
@@ -674,7 +680,7 @@ body {
 
 
     .texto9 {
-        margin-left: -230px;
+        margin-left: -400px;
     }
 
 
@@ -702,14 +708,14 @@ body {
 
 
     .img11 {
-        margin-left: -230px;
+        margin-left: -400px;
         padding-top: 240px;
     }
 
 
 
     .texto11 {
-        margin-left: -230px;
+        margin-left: -400px;
     }
 
     .compra11 {
@@ -734,14 +740,14 @@ body {
 
 
     .img13 {
-        margin-left: -230px;
+        margin-left: -400px;
         margin-top: 70px;
     }
 
 
 
     .texto13 {
-        margin-left: -240px;
+        margin-left: -400px;
     }
 
 
