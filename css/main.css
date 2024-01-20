@@ -498,8 +498,6 @@ body {
     body{
         font-size: 16px;
         text-align: center;
-        justify-content: center;
-        align-items: center;
         
     }
 
@@ -632,13 +630,15 @@ body {
 
 
     .img7 {
+        
         margin-left: -150px;
         margin-top: 50px;
     }
 
 
     .texto7 {
-
+        
+       
         margin-left: -400px;
         margin-bottom: 20px;
         padding-top: 1000%;
@@ -648,6 +648,7 @@ body {
 
 
     .compra7 {
+        
         margin-left: -110px;
     }
 
@@ -655,6 +656,7 @@ body {
 
 
     .img8 {
+        
         margin-left: -20px;
         padding-top: 80px;
     }
@@ -663,10 +665,12 @@ body {
 
 
     .texto8 {
+        
         margin-left: -20px;
     }
 
     .compra8 {
+        
         margin-left: -10px;
         margin-top: 10px;
     }
