@@ -313,7 +313,7 @@
 
 
     <footer id="rodape">
-        <P class="texto-rodape">&copy; 2024 TODOS OS DIREITOS RESEVADOS AO MERCADO DIGITAL</p>
+        <P class="texto-rodape">&copy; <span id="ano"></span> TODOS OS DIREITOS RESEVADOS AO MERCADO DIGITAL</p>
             <h6 class="nome">EMAIL: digitalmercado@mercadodigitalstore.com</h6>
 
     </footer>
@@ -323,4 +323,48 @@
 
 </body>
 
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Dinâmica</title>
+</head>
+<body>
+
+<p id="data"></p>
+
+<script>
+function atualizarData() {
+  // Criar um novo objeto de data
+  var data = new Date();
+  
+  // Obter os componentes da data
+  var dia = data.getDate();
+  var mes = data.getMonth() + 1; // Os meses são baseados em zero
+  var ano = data.getFullYear();
+  
+  // Obter os componentes do tempo
+  var horas = data.getHours();
+  var minutos = data.getMinutes();
+  var segundos = data.getSeconds();
+  
+  // Formatar a data e hora
+  var dataFormatada = dia + '/' + mes + '/' + ano + ' ' + horas + ':' + minutos + ':' + segundos;
+  
+  // Atualizar o conteúdo do elemento HTML com a nova data
+  document.getElementById('data').textContent = dataFormatada;
+}
+
+// Chamar a função inicialmente para exibir a data
+atualizarData();
+
+// Atualizar a data a cada segundo (1000 milissegundos)
+setInterval(atualizarData, 1000);
+</script>
+
+</body>
 </html>
