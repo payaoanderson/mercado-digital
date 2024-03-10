@@ -1,806 +1,211 @@
-body {
-    overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
-    margin: 50px;
-    padding: 50px;
-    margin-left: 50px;
-    padding-left: 50px;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    max-width: 1140px;
-    /*text-align: center;*/
-
-
-
-}
-
+/* Reset de estilos padrão */
 * {
-
-    text-decoration: none;
-    list-style: none;
-    margin: 0px;
-    align-items: center;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#cabecalho {
-    position: fixed;
-    box-shadow: 5px 5px 5px 5px red;
-    margin: 15px;
-    background-color: #5c5858;
-    margin-top: -120px;
-    margin-left: -1000px;
-    padding-left: -1050px;
-    align-items: center;
-    width: 190%;
-    height: 140px;
-    text-align: center;
-
-
-
-
+/* Estilos para o cabeçalho */
+.cabeça {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
 .container {
-
-    display: flex;
-    align-items: center;
-
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.bloco-texto {
+#cabecalho {
     display: flex;
-    margin: 0px;
-    margin-top: 0px;
     justify-content: space-between;
-
-
-}
-
-.bloco-texto ul {
-    margin-top: 50px;
-    margin-left: 100px;
     align-items: center;
-    justify-content: center;
-
 }
 
-
-.u {
-    margin-left: -350px;
-    margin-bottom: 50px;
-    border: 2px solid white;
-    padding: 20px;
-    padding-left: 10px;
-    margin: 0px;
-    margin-top: -20px;
-    background-color: white;
-    border-radius: 10px;
-
+#cabecalho h2 {
+    font-size: 24px;
 }
 
-
-
-.bloco-texto2 li {
-    border: 2px solid white;
-    background-color: white;
-    margin: 20px;
-    margin-left: -70px;
-    border-radius: 10px;
-
+#cabecalho ul {
+    list-style-type: none;
 }
 
-
-.pesquisa {
-    border: 2px solid white;
-    border-radius: 20px;
-    margin-left: -220px;
-    margin-top: 25px;
-    padding: 5px;
-    background-color: white;
-
-
+#cabecalho ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-.bloco-pesquisa li {
-    display: flex;
-
-    margin-left: 100px;
-    background-color: white;
-    border: 2px solid white;
-    margin-top: -40px;
-    border-radius: 10px;
+#cabecalho a {
+    color: #fff;
+    text-decoration: none;
 }
 
-
-.bloco-carrinho li {
-    margin-left: 40px;
-    margin-top: 20px;
-    border: 2px solid white;
-    background-color: white;
-    border-radius: 3px;
-}
-
-
-
-
-
+/* Estilos para o conteúdo principal */
 .container-principal {
-    margin: 0;
-
+    padding: 20px;
 }
-
 
 .texto {
-    position: fixed;
-    background-color: #00ff19;
-    margin-left: -100px;
-    margin: 0px;
-    width: 187%;
-    height: 200px;
-    margin-top: -300px;
-    margin-left: -500px;
-    padding-left: -210px;
-    box-shadow: 5px 5px 5px 5px red;
-    text-align: center
-}
-
-
-.text {
-
     text-align: center;
-    margin-top: -10px;
-    margin-left: -850px;
-    padding-top: 80px;
+    margin-bottom: 30px;
 }
 
+.texto h1 {
+    font-size: 36px;
+}
 
 .imagens {
-    position: static;
-    display: block;
-    margin-top: 350px;
-
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-
-.img1 {
-    margin-top: 50px;
-    margin-left: 550px;
-}
-
-.texto1 {
-    margin-left: 550px;
-}
-
-.compra1 {
-    margin-left: 550px;
-    margin-top: 10px;
-    background-color: #00ff19;
-    width: 100px;
-    padding: 10px;
-    border-radius: 10px;
-
-
-
-
-
-}
-
-
-.img2 {
-    margin-left: 800px;
-    margin-top: -210px;
-}
-
-
-.texto2 {
-    margin-left: 800px;
-    margin-top: -30px;
-}
-
-.compra2 {
-    margin-left: 400px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
-    border-radius: 5px;
-
-
-}
-
-
-
-.img3 {
-    margin-left: 90%;
-    margin-top: -190px;
-}
-
-.texto3 {
-    margin-left: 90%;
-}
-
-
-.compra3 {
-    margin-left: 90%;
-    margin-top: 20px;
-    background-color: #00ff19;
-    padding: 10px;
-    width: 5px;
-    border-radius: 5px;
-}
-
-
-
-.img4 {
-    margin-left: 110%;
-    margin-top: -310px;
-}
-
-
-
-.texto4 {
-    margin-left: 110%;
-}
-
-.compra4 {
-    margin-left: 110%;
-    margin-top: 20px;
-    background-color: #00ff19;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-
-
-.img5 {
-    margin-left: 540px;
-    margin-top: 250px;
-}
-
-.texto5 {
-    margin-left: 540px;
-
-}
-
-.compra5 {
-    margin-left: 280px;
-    margin-top: 30px;
-    background-color: #00ff19;
-    border-radius: 10px;
-    width: 0px;
-    padding: -5px;
-}
-
-.img6 {
-    margin-left: 800px;
-    margin-top: -200px;
-}
-
-
-.texto6 {
-    margin-left: 800px;
-
-}
-
-.compra6 {
-    margin-left: 400px;
-    background-color: #00ff19;
-    width: 0px;
-    padding: 0px;
-    margin-top: 20px;
-    border-radius: 10px;
-
-}
-
-
-.img7 {
-    margin-left: 1000px;
-    margin-top: -200px;
-}
-
-
-.texto7 {
-    margin-left: 1040px;
-}
-
-
-.compra7 {
-    margin-left: 520px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
-    padding: 0px;
-    border-radius: 10px;
-}
-
-
-.img8 {
-    margin-left: 110%;
-    margin-top: -220px;
-}
-
-
-.texto8 {
-    margin-left: 110%;
-}
-
-
-.compra8 {
-    margin-left: 630px;
-    margin-top: 40px;
-    border-radius: 10px;
-    width: 0px;
-    background-color: #00ff19;
-    padding: 0px;
-}
-
-
-.img9 {
-    margin-left: 535px;
-    margin-top: 130px;
-
-}
-
-.texto9 {
-    margin-left: 530px;
-}
-
-.compra9 {
-    margin-left: 280px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
-    border-radius: 5px;
-}
-
-
-.img10 {
-    margin-left: 740px;
-    margin-top: -220px;
-}
-
-
-.texto10 {
-    margin-left: 750px;
-}
-
-.compra10 {
-    margin-left: 385px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
-    border-radius: 10px;
-}
-
-
-.img11 {
-    margin-left: 1000px;
-    margin-top: -220px;
-}
-
-
-.texto11 {
-    margin-left: 1000px;
-}
-
-.compra11 {
-    margin-left: 515px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
-    border-radius: 10px;
-}
-
-
-
-
-.img12 {
-    margin-left: 1250px;
-    margin-top: -210px;
-}
-
-
-.texto12 {
-    margin-left: 1250px;
-}
-
-.compra12 {
-    margin-left: 625px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
-    border-radius: 10px;
-}
-
-
-.img13 {
-    margin-left: 540px;
-    margin-top: 150px;
-}
-
-.texto13 {
-    margin-left: 500px;
-}
-
-.compra13 {
-    margin-left: 285px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
-    border-radius: 10px;
-
-}
-
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12,
+.img13,
 .img14 {
-    margin-left: 790px;
-    margin-top: -210px;
+    text-align: center;
 }
 
-.texto14 {
-    margin-left: 790px;
+.imagens img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
 }
 
+.abertura {
+    font-size: 18px;
+}
+
+.compra1,
+.compra2,
+.compra3,
+.compra4,
+.compra5,
+.compra6,
+.compra7,
+.compra8,
+.compra9,
+.compra10,
+.compra11,
+.compra12,
+.compra13,
 .compra14 {
-    margin-left: 400px;
-    margin-top: 20px;
-    background-color: #00ff19;
-    width: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.compra1 a,
+.compra2 a,
+.compra3 a,
+.compra4 a,
+.compra5 a,
+.compra6 a,
+.compra7 a,
+.compra8 a,
+.compra9 a,
+.compra10 a,
+.compra11 a,
+.compra12 a,
+.compra13 a,
+.compra14 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
     border-radius: 5px;
 }
 
+.compra1 a:hover,
+.compra2 a:hover,
+.compra3 a:hover,
+.compra4 a:hover,
+.compra5 a:hover,
+.compra6 a:hover,
+.compra7 a:hover,
+.compra8 a:hover,
+.compra9 a:hover,
+.compra10 a:hover,
+.compra11 a:hover,
+.compra12 a:hover,
+.compra13 a:hover,
+.compra14 a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o rodapé */
 #rodape {
-    position: static;
-    margin-top: 300px;
-    margin-left: -805px;
-    border: 2px solid #00ff19;
-    width: 113%;
-    padding: 11%;
-    padding-left: 1500px;
-    background-color: #00ff19;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px 10px red;
-    height: 100px;
-
-
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.nome {
-    font-size: 9px;
-    border: 2px solid red;
-    width: 300px;
-    padding: 4px;
-    background-color: red;
-}
-
-.img15 {
-    margin-top: 150px;
-    margin-left: 1020px;
+#rodape h6 {
+    margin-top: 10px;
 }
 
 
 
+/*estilo mobile;*/
 
-
-
-
-
-
-/*estilo mobile*/
-
-
-
-
-
-
-@media(max-width: 767px) {
-
-    body{
-        font-size: 16px;
-        text-align: center;
-        
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
     }
 
-    #cabecalho {
-        z-index: 999999;
-        position: fixed;
-        margin: 10px;
-        margin-top: -100px;
-        margin-left: -430px;
-
+    #cabecalho ul li {
+        margin-right: 10px;
     }
 
-    .bloco-texto h2 {
-        display: none;
-
-    }
-
-
-    .bloco-texto2 li {
-        font-size: 7px;
-
-    }
-
-    .pesquisa {
-        padding: 1px;
-    }
-
-
-    .bloco-carrinho{
-        display: none;
-    }
-
-    #meuFormulario {
-        border-radius: 10px;
-
+    .imagens {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
 
     .texto h1 {
-        position: fixed;
-        margin-left: 550px;
-        font-size: 20px;
+        font-size: 24px;
     }
 
-
-
-    .imagens {
-        column-count: 2;
-        margin-left: 55px;
-    
-
+    .abertura {
+        font-size: 16px;
     }
 
-
-    .img1 {
-        margin-left: -80px;
-        width: 50px;
+    .compra1 a,
+    .compra2 a,
+    .compra3 a,
+    .compra4 a,
+    .compra5 a,
+    .compra6 a,
+    .compra7 a,
+    .compra8 a,
+    .compra9 a,
+    .compra10 a,
+    .compra11 a,
+    .compra12 a,
+    .compra13 a,
+    .compra14 a {
+        padding: 8px 16px;
     }
-
-    .texto1 {
-        margin-left: -120px;
-
-    }
-
-    .compra1 {
-        margin-left: -80px;
-        font-size: 15px;
-
-    }
-
-
-    .img2 {
-        margin-left: 130px;
-    }
-
-
-    .texto2 {
-        margin-left: 130px;
-    }
-
-    .compra2 {
-        margin-left: 70px;
-    }
-
-    .img3 {
-        margin-left: -90px;
-        margin-top: 120px;
-    }
-
-    .texto3 {
-        margin-left: -90px;
-    }
-
-    .compra3 {
-        margin-left: -30px;
-    }
-
-
-    .img4 {
-        margin-top: -250px;
-    }
-
-
-    .img5 {
-        margin-left: -100px;
-        margin-top: 80px;
-    }
-
-
-    .texto5 {
-        margin-left: -100px;
-    }
-
-    .compra5 {
-        margin-left: -40px;
-
-    }
-
-    .img6 {
-        margin-left: 120px;
-    }
-
-    .texto6 {
-        margin-left: 120px;
-    }
-
-
-    .compra6 {
-        margin-left: 80px;
-    }
-
-
-    .img7 {
-        
-        margin-left: -150px;
-        margin-top: 50px;
-    }
-
-
-    .texto7 {
-        
-       
-        margin-left: -400px;
-        margin-bottom: 20px;
-        padding-top: 1000%;
-
-
-    }
-
-
-    .compra7 {
-        
-        margin-left: -110px;
-    }
-
-
-
-
-    .img8 {
-        
-        margin-left: -20px;
-        padding-top: 80px;
-    }
-
-
-
-
-    .texto8 {
-        
-        margin-left: -20px;
-    }
-
-    .compra8 {
-        
-        margin-left: -10px;
-        margin-top: 10px;
-    }
-
-    .img9 {
-        margin-left: -400px;
-        margin-top: 70px;
-    }
-
-
-
-
-    .texto9 {
-        margin-left: -400px;
-    }
-
-
-
-    .compra9 {
-        margin-left: -102px;
-    }
-
-
-    .img10 {
-        margin-left: -20px;
-    }
-
-
-
-    .texto10 {
-        margin-left: -5px;
-    }
-
-
-    .compra10 {
-        margin-left: 1px;
-    }
-
-
-
-    .img11 {
-        margin-left: -400px;
-        padding-top: 240px;
-    }
-
-
-
-    .texto11 {
-        margin-left: -400px;
-    }
-
-    .compra11 {
-        margin-left: -100px;
-    }
-
-
-    .img12 {
-        margin-left: -10px;
-    }
-
-
-    .texto12 {
-        margin-left: -10px;
-    }
-
-    .compra12 {
-        margin-left: 1px;
-    }
-
-
-
-
-    .img13 {
-        margin-left: -400px;
-        margin-top: 70px;
-    }
-
-
-
-    .texto13 {
-        margin-left: -400px;
-    }
-
-
-
-
-    .compra13 {
-        margin-left: -100px;
-    }
-
-
-
-    .img14 {
-        margin-left: -5px;
-    }
-
-
-
-
-
-    .texto14 {
-        margin-left: 10px;
-    }
-
-
-
-
-
-    .compra14 {
-        margin-left: 2px;
-    }
-
-
-
-
 
     #rodape {
-        margin-left: -1550px;
-        width: 400px;
+        padding: 10px 0;
+    }
+
+    #rodape h6 {
         font-size: 12px;
-        margin-top: 60px;
-
     }
-
-    .nome {
-        font-size: 8px;
-        width: 300PX;
-    }
-
-
-
 }
