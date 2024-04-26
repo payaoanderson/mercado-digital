@@ -161,6 +161,12 @@
 
 
 
+.texto {
+    text-align: center;
+}
+
+
+
 /*estilo mobile;*/
 
 @media only screen and (max-width: 768px) {
