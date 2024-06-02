@@ -149,6 +149,7 @@
 
 /* Estilos para o rodapé */
 #rodape {
+    
     background-color: #333;
     color: #fff;
     padding: 20px 0;
@@ -156,19 +157,10 @@
 }
 
 #rodape h6 {
-    margin-top: 10px;
+    margin: 0;
 }
 
-
-
-.texto {
-    text-align: center;
-}
-
-
-
-/*estilo mobile;*/
-
+/* Estilo mobile */
 @media only screen and (max-width: 768px) {
     .container {
         padding: 0 10px;
