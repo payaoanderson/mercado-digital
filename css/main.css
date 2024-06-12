@@ -83,7 +83,6 @@
 .img15 {
     text-align: center;
     
-
 }
 
 .imagens img {
@@ -113,6 +112,7 @@
 .compra15 {
     text-align: center;
     margin-top: 10px;
+    justify-content: center;
 }
 
 .compra1 a,
