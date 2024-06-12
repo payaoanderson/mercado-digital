@@ -79,7 +79,6 @@
 .img11,
 .img12,
 .img13,
-.img14,
 .img15 {
     text-align: center;
     
@@ -108,7 +107,6 @@
 .compra11,
 .compra12,
 .compra13,
-.compra14, 
 .compra15 {
     text-align: center;
     margin-top: 10px;
@@ -128,7 +126,6 @@
 .compra11 a,
 .compra12 a,
 .compra13 a,
-.compra14 a,
 .compra15 a {
     display: inline-block;
     padding: 10px 20px;
@@ -151,7 +148,6 @@
 .compra11 a:hover,
 .compra12 a:hover,
 .compra13 a:hover,
-.compra14 a:hover,
 .compra15 a:hover {
     background-color: black;
 }
@@ -221,7 +217,6 @@
     .compra11 a,
     .compra12 a,
     .compra13 a,
-    .compra14 a,
     .compra15 a {
         padding: 8px 16px;
     }
