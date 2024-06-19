@@ -81,7 +81,8 @@
 .img13,
 .img15,
 .img16,
-.img17 {
+.img17,
+.img18 {
     text-align: center;
     
 }
@@ -111,7 +112,8 @@
 .compra13,
 .compra15,
 .compra16,
-.compra17 {
+.compra17,
+.compra18 {
     text-align: center;
     margin-top: 10px;
     justify-content: center;
@@ -132,7 +134,8 @@
 .compra13 a,
 .compra15 a,
 .compra16 a,
-.compra17 a {
+.compra17 a,
+.compra18 a {
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -155,7 +158,8 @@
 .compra13 a:hover,
 .compra15 a:hover,
 .compra16 a:hover,
-.compra17 a:hover {
+.compra17 a:hover, 
+.compra18 a:hover {
     background-color: black;
 }
 
@@ -226,7 +230,8 @@
     .compra13 a,
     .compra15 a,
     .compra16 a,
-    .compra17 a {
+    .compra17 a, 
+    .compra18 a {
         padding: 8px 16px;
     }
 
