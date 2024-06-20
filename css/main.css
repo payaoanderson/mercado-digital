@@ -12,6 +12,7 @@
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    box-shadow: 10px 10px 10px 10px red;
 }
 
 .container {
@@ -82,9 +83,12 @@
 .img15,
 .img16,
 .img17,
-.img18 {
+.img18,
+.img19,
+.img20,
+.img21 {
     text-align: center;
-    
+
 }
 
 .imagens img {
@@ -113,7 +117,10 @@
 .compra15,
 .compra16,
 .compra17,
-.compra18 {
+.compra18,
+.compra19,
+.compra20,
+.compra21 {
     text-align: center;
     margin-top: 10px;
     justify-content: center;
@@ -135,7 +142,10 @@
 .compra15 a,
 .compra16 a,
 .compra17 a,
-.compra18 a {
+.compra18 a,
+.compra19 a,
+.compra20 a,
+.compra21 a {
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -158,14 +168,17 @@
 .compra13 a:hover,
 .compra15 a:hover,
 .compra16 a:hover,
-.compra17 a:hover, 
-.compra18 a:hover {
+.compra17 a:hover,
+.compra18 a:hover,
+.compra19 a:hover,
+.compra20 a:hover,
+.compra21 a:hover {
     background-color: black;
 }
 
 /* Estilos para o rodapé */
 #rodape {
-    
+
     background-color: #333;
     color: #fff;
     padding: 20px 0;
@@ -177,7 +190,7 @@
 }
 
 
-.politica{
+.politica {
     text-align: center;
     background-color: red;
     font-size: 20px;
@@ -188,7 +201,7 @@
 }
 
 
-.container{
+.container {
     text-align: justify;
 
 }
@@ -230,8 +243,11 @@
     .compra13 a,
     .compra15 a,
     .compra16 a,
-    .compra17 a, 
-    .compra18 a {
+    .compra17 a,
+    .compra18 a,
+    .compra19 a,
+    .compra20 a,
+    .compra21 a {
         padding: 8px 16px;
     }
 
