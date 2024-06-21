@@ -228,6 +228,85 @@
         font-size: 16px;
     }
 
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10,
+    .img11,
+    .img12,
+    .img13,
+    .img15,
+    .img16,
+    .img17,
+    .img18,
+    .img19,
+    .img20,
+    .img21 {
+        width: 50px;
+
+    }
+
+    .compra1,
+    .compra2,
+    .compra3,
+    .compra4,
+    .compra5,
+    .compra6,
+    .compra7,
+    .compra8,
+    .compra9,
+    .compra10,
+    .compra11,
+    .compra12,
+    .compra13,
+    .compra15,
+    .compra16,
+    .compra17,
+    .compra18,
+    .compra19,
+    .compra20,
+    .compra21 {
+
+         padding: 25px;
+         margin-top: -10px;
+        
+    }
+
+
+    .texto1,
+    .texto2,
+    .texto3,
+    .texto4,
+    .texto5,
+    .texto6,
+    .texto7,
+    .texto8,
+    .texto9,
+    .texto10,
+    .texto11,
+    .texto12,
+    .texto13,
+    .texto14,
+    .texto15,
+    .texto16,
+    .texto17,
+    .texto18,
+    .texto19,
+    .texto20,
+    .texto21 {
+        font-size: 10px;
+        margin-top: 20px
+
+    }
+
+
+
     .compra1 a,
     .compra2 a,
     .compra3 a,
@@ -248,14 +327,25 @@
     .compra19 a,
     .compra20 a,
     .compra21 a {
-        padding: 8px 16px;
+        display: block;
+        padding: 10px;
+        font-size: 15px;
+        
+        color: #fff;
+        
     }
+    
 
     #rodape {
         padding: 10px 0;
     }
 
     #rodape h6 {
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    #rodape p{
+        font-size: 10px;
+
     }
 }
