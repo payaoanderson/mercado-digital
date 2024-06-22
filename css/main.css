@@ -48,7 +48,7 @@
 /* Estilos para o conteúdo principal */
 .container-principal {
     padding: 20px;
-   
+
 }
 
 .texto {
@@ -87,7 +87,8 @@
 .img18,
 .img19,
 .img20,
-.img21 {
+.img21,
+.img22 {
     text-align: center;
 
 }
@@ -121,7 +122,9 @@
 .compra18,
 .compra19,
 .compra20,
-.compra21 {
+.compra21,
+.compra22 {
+
     text-align: center;
     margin-top: 10px;
     justify-content: center;
@@ -146,7 +149,8 @@
 .compra18 a,
 .compra19 a,
 .compra20 a,
-.compra21 a {
+.compra21 a, 
+.compra22 a {
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -173,7 +177,8 @@
 .compra18 a:hover,
 .compra19 a:hover,
 .compra20 a:hover,
-.compra21 a:hover {
+.compra21 a:hover,
+.compra22 a:hover {
     background-color: black;
 }
 
@@ -221,7 +226,7 @@
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
 
-    .container-principal{
+    .container-principal {
         margin-left: 20px;
     }
 
@@ -252,7 +257,8 @@
     .img18,
     .img19,
     .img20,
-    .img21 {
+    .img21,
+    .img22 {
         width: 50px;
         margin-left: 60px;
 
@@ -277,11 +283,11 @@
     .compra18,
     .compra19,
     .compra20,
-    .compra21 {
-         margin-left: -50px;
-         padding: 30px;
-         margin-top: -20px;
-        
+    .compra21,
+    .compra22 {
+        margin-left: -50px;
+        padding: 30px;
+        margin-top: -20px;
     }
 
 
@@ -305,11 +311,11 @@
     .texto18,
     .texto19,
     .texto20,
-    .texto21 {
+    .texto21,
+    .texto22 {
         font-size: 10px;
 
         margin-top: 20px
-
     }
 
 
@@ -333,16 +339,17 @@
     .compra18 a,
     .compra19 a,
     .compra20 a,
-    .compra21 a {
-        
+    .compra21 a,
+    .compra22 a {
+
         padding: 10px;
         font-size: 10px;
 
-        
+
         color: white;
-        
+
     }
-    
+
 
     #rodape {
         padding: 10px 0;
@@ -352,12 +359,12 @@
         font-size: 8px;
     }
 
-    #rodape p{
+    #rodape p {
         font-size: 8px;
 
     }
 
-    .politica{
+    .politica {
         font-size: 8px;
     }
 }
