@@ -91,7 +91,8 @@
 .img22,
 .img23,
 .img24,
-.img25 {
+.img25, 
+.img26 {
     text-align: center;
 
 }
@@ -129,7 +130,8 @@
 .compra22,
 .compra23,
 .compra24, 
-.compra25 {
+.compra25, 
+.compra26 {
 
     text-align: center;
     margin-top: 10px;
@@ -159,7 +161,8 @@
 .compra22 a,
 .compra23 a,
 .compra24 a, 
-.compra25 a {
+.compra25 a, 
+.compra26 a {
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -190,7 +193,8 @@
 .compra22 a:hover,
 .compra23 a:hover,
 .compra24 a:hover,
-.compra25 a:hover {
+.compra25 a:hover, 
+.compra26 a:hover {
     background-color: black;
 }
 
@@ -273,7 +277,8 @@
     .img22,
     .img23,
     .img24,
-    .img25 {
+    .img25, 
+    .img26 {
         width: 50px;
         margin-left: 60px;
     }
@@ -301,7 +306,8 @@
     .compra22,
     .compra23,
     .compra24, 
-    .compra25 {
+    .compra25, 
+    .compra26 {
         margin-left: -50px;
         padding: 30px;
         margin-top: -20px;
@@ -332,7 +338,8 @@
     .texto22,
     .texto23,
     .texto24, 
-    .texto25 {
+    .texto25, 
+    .texto26 {
         font-size: 10px;
         margin-top: 20px
     }
@@ -362,7 +369,8 @@
     .compra22 a,
     .compra23 a, 
     .compra24 a, 
-    .compra25 a {
+    .compra25 a, 
+    .compra26 a {
         padding: 10px;
         font-size: 10px;
         color: white;
