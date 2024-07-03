@@ -98,7 +98,8 @@
 .img29, 
 .img30, 
 .img31,
-.img32 {
+.img32, 
+.img33 {
     text-align: center;
 
 }
@@ -143,7 +144,8 @@
 .compra29,
 .compra30,
 .compra31, 
-.compra32 {
+.compra32, 
+.compra33 {
 
     text-align: center;
     margin-top: 10px;
@@ -180,7 +182,8 @@
 .compra29 a, 
 .compra30 a, 
 .compra31 a, 
-.compra32 a {
+.compra32 a, 
+.compra33 a {
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -218,7 +221,8 @@
 .compra29 a:hover, 
 .compra30 a:hover, 
 .compra31 a:hover, 
-.compra32 a:hover {
+.compra32 a:hover, 
+.compra33 a:hover {
     background-color: black;
 }
 
@@ -308,7 +312,8 @@
     .img29,
     .img30,
     .img31,
-    .img32 {
+    .img32,
+    .img33 {
         width: 50px;
         margin-left: 60px;
     }
@@ -343,7 +348,8 @@
     .compra29, 
     .compra30, 
     .compra31, 
-    .compra32 {
+    .compra32,
+    .compra33 {
         margin-left: -50px;
         padding: 30px;
         margin-top: -20px;
@@ -381,7 +387,8 @@
     .texto29, 
     .texto30,
     .texto31, 
-    .texto32 {
+    .texto32,
+    .texto33 {
         font-size: 10px;
         margin-top: 20px
     }
@@ -418,7 +425,8 @@
     .compra29 a, 
     .compra30 a, 
     .compra31 a, 
-    .compra32 a {
+    .compra32 a,
+    .compra33 a {
         padding: 10px;
         font-size: 10px;
         color: white;
