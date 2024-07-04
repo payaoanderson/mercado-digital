@@ -91,15 +91,17 @@
 .img22,
 .img23,
 .img24,
-.img25, 
+.img25,
 .img26,
 .img27,
-.img28, 
-.img29, 
-.img30, 
+.img28,
+.img29,
+.img30,
 .img31,
-.img32, 
-.img33 {
+.img32,
+.img33,
+.img34,
+.img35 {
     text-align: center;
 
 }
@@ -136,16 +138,18 @@
 .compra21,
 .compra22,
 .compra23,
-.compra24, 
-.compra25, 
+.compra24,
+.compra25,
 .compra26,
-.compra27, 
-.compra28, 
+.compra27,
+.compra28,
 .compra29,
 .compra30,
-.compra31, 
-.compra32, 
-.compra33 {
+.compra31,
+.compra32,
+.compra33,
+.compra34,
+.compra35 {
 
     text-align: center;
     margin-top: 10px;
@@ -174,16 +178,18 @@
 .compra21 a,
 .compra22 a,
 .compra23 a,
-.compra24 a, 
-.compra25 a, 
-.compra26 a, 
-.compra27 a, 
-.compra28 a, 
-.compra29 a, 
-.compra30 a, 
-.compra31 a, 
-.compra32 a, 
-.compra33 a {
+.compra24 a,
+.compra25 a,
+.compra26 a,
+.compra27 a,
+.compra28 a,
+.compra29 a,
+.compra30 a,
+.compra31 a,
+.compra32 a,
+.compra33 a,
+.compra34 a,
+.compra35 a {
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -214,15 +220,17 @@
 .compra22 a:hover,
 .compra23 a:hover,
 .compra24 a:hover,
-.compra25 a:hover, 
+.compra25 a:hover,
 .compra26 a:hover,
-.compra27 a:hover, 
-.compra28 a:hover, 
-.compra29 a:hover, 
-.compra30 a:hover, 
-.compra31 a:hover, 
-.compra32 a:hover, 
-.compra33 a:hover {
+.compra27 a:hover,
+.compra28 a:hover,
+.compra29 a:hover,
+.compra30 a:hover,
+.compra31 a:hover,
+.compra32 a:hover,
+.compra33 a:hover,
+.compra34 a:hover,
+.compra35 a:hover {
     background-color: black;
 }
 
@@ -233,6 +241,7 @@
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    box-shadow: 10px 10px 10px 10px red;
 }
 
 #rodape h6 {
@@ -253,6 +262,12 @@
 
 .container {
     text-align: justify;
+    margin-top: 20px;
+
+}
+
+.bloco-texto {
+    font-size: 18px;
 
 }
 
@@ -305,15 +320,17 @@
     .img22,
     .img23,
     .img24,
-    .img25, 
-    .img26, 
-    .img27, 
-    .img28, 
+    .img25,
+    .img26,
+    .img27,
+    .img28,
     .img29,
     .img30,
     .img31,
     .img32,
-    .img33 {
+    .img33,
+    .img34,
+    .img35 {
         width: 50px;
         margin-left: 60px;
     }
@@ -340,16 +357,18 @@
     .compra21,
     .compra22,
     .compra23,
-    .compra24, 
-    .compra25, 
-    .compra26, 
+    .compra24,
+    .compra25,
+    .compra26,
     .compra27,
-    .compra28, 
-    .compra29, 
-    .compra30, 
-    .compra31, 
+    .compra28,
+    .compra29,
+    .compra30,
+    .compra31,
     .compra32,
-    .compra33 {
+    .compra33,
+    .compra34,
+    .compra35 {
         margin-left: -50px;
         padding: 30px;
         margin-top: -20px;
@@ -379,16 +398,18 @@
     .texto21,
     .texto22,
     .texto23,
-    .texto24, 
-    .texto25, 
-    .texto26, 
+    .texto24,
+    .texto25,
+    .texto26,
     .texto27,
-    .texto28, 
-    .texto29, 
+    .texto28,
+    .texto29,
     .texto30,
-    .texto31, 
+    .texto31,
     .texto32,
-    .texto33 {
+    .texto33,
+    .texto34,
+    .texto35 {
         font-size: 10px;
         margin-top: 20px
     }
@@ -416,17 +437,19 @@
     .compra20 a,
     .compra21 a,
     .compra22 a,
-    .compra23 a, 
-    .compra24 a, 
-    .compra25 a, 
-    .compra26 a, 
+    .compra23 a,
+    .compra24 a,
+    .compra25 a,
+    .compra26 a,
     .compra27 a,
-    .compra28 a, 
-    .compra29 a, 
-    .compra30 a, 
-    .compra31 a, 
+    .compra28 a,
+    .compra29 a,
+    .compra30 a,
+    .compra31 a,
     .compra32 a,
-    .compra33 a {
+    .compra33 a,
+    .compra34 a,
+    .compra35 a {
         padding: 10px;
         font-size: 10px;
         color: white;
