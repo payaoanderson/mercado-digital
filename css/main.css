@@ -63,6 +63,7 @@
 
 
 .imagens {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -102,6 +103,7 @@
 .img33,
 .img34,
 .img35 {
+    position: relative;
     text-align: center;
 
 }
@@ -150,6 +152,7 @@
 .compra33,
 .compra34,
 .compra35 {
+    position: relative;
 
     text-align: center;
     margin-top: 10px;
@@ -190,6 +193,7 @@
 .compra33 a,
 .compra34 a,
 .compra35 a {
+    position: relative;
     display: inline-block;
     padding: 10px 20px;
     background-color: red;
@@ -231,6 +235,7 @@
 .compra33 a:hover,
 .compra34 a:hover,
 .compra35 a:hover {
+    position: relative;
     background-color: black;
 }
 
@@ -268,6 +273,7 @@
 
 .bloco-texto {
     font-size: 18px;
+    margin-top: 18px;
 
 }
 
@@ -331,6 +337,7 @@
     .img33,
     .img34,
     .img35 {
+        position: relative;
         width: 50px;
         margin-left: 60px;
     }
@@ -369,6 +376,7 @@
     .compra33,
     .compra34,
     .compra35 {
+        position: relative;
         margin-left: -50px;
         padding: 30px;
         margin-top: -20px;
@@ -410,6 +418,7 @@
     .texto33,
     .texto34,
     .texto35 {
+        position: relative;
         font-size: 10px;
         margin-top: 20px
     }
@@ -450,6 +459,7 @@
     .compra33 a,
     .compra34 a,
     .compra35 a {
+        position: relative;
         padding: 10px;
         font-size: 10px;
         color: white;
