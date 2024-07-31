@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+  
 }
 
 /* Estilos para o cabeçalho */
@@ -102,7 +103,9 @@
 .img32,
 .img33,
 .img34,
-.img35 {
+.img35,
+.img36,
+.img37 {
     position: relative;
     text-align: center;
 
@@ -151,7 +154,9 @@
 .compra32,
 .compra33,
 .compra34,
-.compra35 {
+.compra35,
+.compra36,
+.compra37 {
     position: relative;
 
     text-align: center;
@@ -192,7 +197,9 @@
 .compra32 a,
 .compra33 a,
 .compra34 a,
-.compra35 a {
+.compra35 a,
+.compra36 a,
+.compra37 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -234,7 +241,9 @@
 .compra32 a:hover,
 .compra33 a:hover,
 .compra34 a:hover,
-.compra35 a:hover {
+.compra35 a:hover,
+.compra36 a:hover,
+.compra37 a:hover {
     position: relative;
     background-color: black;
 }
@@ -336,7 +345,9 @@
     .img32,
     .img33,
     .img34,
-    .img35 {
+    .img35,
+    .img36,
+    .img37 {
         position: relative;
         width: 50px;
         margin-left: 60px;
@@ -375,7 +386,9 @@
     .compra32,
     .compra33,
     .compra34,
-    .compra35 {
+    .compra35,
+    .compra36,
+    .compra37 {
         position: relative;
         margin-left: -50px;
         padding: 30px;
@@ -417,7 +430,9 @@
     .texto32,
     .texto33,
     .texto34,
-    .texto35 {
+    .texto35,
+    .texto36,
+    .texto37 {
         position: relative;
         font-size: 10px;
         margin-top: 20px
@@ -458,7 +473,9 @@
     .compra32 a,
     .compra33 a,
     .compra34 a,
-    .compra35 a {
+    .compra35 a,
+    .compra36 a,
+    .compra37 a {
         position: relative;
         padding: 10px;
         font-size: 10px;
