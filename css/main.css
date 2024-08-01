@@ -105,7 +105,8 @@
 .img34,
 .img35,
 .img36,
-.img37 {
+.img37,
+.img38 {
     position: relative;
     text-align: center;
 
@@ -156,7 +157,8 @@
 .compra34,
 .compra35,
 .compra36,
-.compra37 {
+.compra37,
+.compra38 {
     position: relative;
 
     text-align: center;
@@ -199,7 +201,8 @@
 .compra34 a,
 .compra35 a,
 .compra36 a,
-.compra37 a {
+.compra37 a,
+.compra38 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -243,7 +246,8 @@
 .compra34 a:hover,
 .compra35 a:hover,
 .compra36 a:hover,
-.compra37 a:hover {
+.compra37 a:hover,
+.compra38 a:hover {
     position: relative;
     background-color: black;
 }
@@ -347,7 +351,8 @@
     .img34,
     .img35,
     .img36,
-    .img37 {
+    .img37,
+    .img38 {
         position: relative;
         width: 50px;
         margin-left: 60px;
@@ -388,7 +393,8 @@
     .compra34,
     .compra35,
     .compra36,
-    .compra37 {
+    .compra37,
+    .compra38 {
         position: relative;
         margin-left: -50px;
         padding: 30px;
@@ -432,7 +438,8 @@
     .texto34,
     .texto35,
     .texto36,
-    .texto37 {
+    .texto37,
+    .texto38 {
         position: relative;
         font-size: 10px;
         margin-top: 20px
@@ -475,7 +482,8 @@
     .compra34 a,
     .compra35 a,
     .compra36 a,
-    .compra37 a {
+    .compra37 a,
+    .compra38 a {
         position: relative;
         padding: 10px;
         font-size: 10px;
