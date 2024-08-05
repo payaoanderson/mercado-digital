@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
-  
+
 }
 
 /* Estilos para o cabeçalho */
@@ -111,7 +111,53 @@
 .img40 {
     position: relative;
     text-align: center;
+    padding: 20px;
 
+}
+
+
+
+.texto1,
+.texto2,
+.texto3,
+.texto4,
+.texto5,
+.texto6,
+.texto7,
+.texto8,
+.texto9,
+.texto10,
+.texto11,
+.texto12,
+.texto13,
+.texto14,
+.texto15,
+.texto16,
+.texto17,
+.texto18,
+.texto19,
+.texto20,
+.texto21,
+.texto22,
+.texto23,
+.texto24,
+.texto25,
+.texto26,
+.texto27,
+.texto28,
+.texto29,
+.texto30,
+.texto31,
+.texto32,
+.texto33,
+.texto34,
+.texto35,
+.texto36,
+.texto37,
+.texto38,
+.texto39,
+.texto40 {
+    padding: 20px;
 }
 
 .imagens img {
@@ -164,7 +210,7 @@
 .compra39,
 .compra40 {
     position: relative;
-
+    padding: 20px;
     text-align: center;
     margin-top: 10px;
     justify-content: center;
@@ -215,6 +261,7 @@
     background-color: red;
     color: #fff;
     border-radius: 5px;
+    padding: 15px;
 }
 
 .compra1 a:hover,
@@ -258,6 +305,7 @@
 .compra40 a:hover {
     position: relative;
     background-color: black;
+    padding: 10px;
 }
 
 /* Estilos para o rodapé */
@@ -366,6 +414,7 @@
         position: relative;
         width: 50px;
         margin-left: 60px;
+        padding: 20px;
     }
 
     .compra1,
@@ -409,7 +458,7 @@
     .compra40 {
         position: relative;
         margin-left: -50px;
-        padding: 30px;
+        padding: 10px;
         margin-top: -20px;
     }
 
@@ -456,7 +505,8 @@
     .texto40 {
         position: relative;
         font-size: 10px;
-        margin-top: 20px
+        margin-top: 20px;
+        padding: 20px;
     }
 
 
