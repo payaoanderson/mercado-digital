@@ -63,6 +63,16 @@
 
 
 
+.icone{
+    padding: 1px;
+    margin-left: -150px;
+    background-color: green;
+    width: 52px;
+    border-radius: 15px;
+     
+}
+
+
 .imagens {
     position: relative;
     display: grid;
@@ -108,7 +118,8 @@
 .img37,
 .img38,
 .img39,
-.img40 {
+.img40,
+.img41 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -156,8 +167,65 @@
 .texto37,
 .texto38,
 .texto39,
-.texto40 {
+.texto40,
+.texto41 {    
     padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.texto1 :hover,
+.texto2 :hover,
+.texto3 :hover,
+.texto4 :hover,
+.texto5 :hover,
+.texto6 :hover,
+.texto7 :hover,
+.texto8 :hover,
+.texto9 :hover,
+.texto10 :hover,
+.texto11 :hover,
+.texto12 :hover,
+.texto13 :hover,
+.texto14 :hover,
+.texto15 :hover,
+.texto16 :hover,
+.texto17 :hover,
+.texto18 :hover,
+.texto19 :hover,
+.texto20 :hover,
+.texto21 :hover,
+.texto22 :hover,
+.texto23 :hover,
+.texto24 :hover,
+.texto25 :hover,
+.texto26 :hover,
+.texto27 :hover,
+.texto28 :hover,
+.texto29 :hover,
+.texto30 :hover,
+.texto31 :hover,
+.texto32 :hover,
+.texto33 :hover,
+.texto34 :hover,
+.texto35 :hover,
+.texto36 :hover,
+.texto37 :hover,
+.texto38 :hover,
+.texto39 :hover,
+.texto40 :hover,
+.texto41 :hover{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .imagens img {
@@ -208,7 +276,8 @@
 .compra37,
 .compra38,
 .compra39,
-.compra40 {
+.compra40,
+.compra41 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -254,7 +323,8 @@
 .compra37 a,
 .compra38 a,
 .compra39 a,
-.compra40 a {
+.compra40 a,
+.compra41 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -302,7 +372,8 @@
 .compra37 a:hover,
 .compra38 a:hover,
 .compra39 a:hover,
-.compra40 a:hover {
+.compra40 a:hover,
+.compra41 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
@@ -410,7 +481,8 @@
     .img37,
     .img38,
     .img39,
-    .img40 {
+    .img40,
+    .img41 {
         position: relative;
         width: 50px;
         margin-left: 60px;
@@ -455,7 +527,8 @@
     .compra37,
     .compra38,
     .compra39,
-    .compra40 {
+    .compra40,
+    .compra41 {
         position: relative;
         margin-left: -50px;
         padding: 10px;
@@ -502,7 +575,8 @@
     .texto37,
     .texto38,
     .texto39,
-    .texto40 {
+    .texto40,
+    .texto41 {
         position: relative;
         font-size: 10px;
         margin-top: 20px;
@@ -549,7 +623,8 @@
     .compra37 a,
     .compra38 a,
     .compra39 a,
-    .compra40 a {
+    .compra40 a,
+    .compra41 a {
         position: relative;
         padding: 10px;
         font-size: 10px;
