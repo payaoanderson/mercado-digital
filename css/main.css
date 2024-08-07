@@ -409,6 +409,9 @@
 .politica a {
     color: #fff;
 }
+.politica a:hover {
+    color: black;
+}
 
 
 .container {
