@@ -123,7 +123,8 @@
 .img42,
 .img43,
 .img44,
-.img45 {
+.img45,
+.img46 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -176,7 +177,8 @@
 .texto42,
 .texto43,
 .texto44,
-.texto45 {    
+.texto45,
+.texto46 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -233,7 +235,8 @@
 .texto42 :hover,
 .texto43 :hover,
 .texto44 :hover,
-.texto45 :hover{
+.texto45 :hover,
+.texto46 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -293,7 +296,8 @@
 .compra42,
 .compra43,
 .compra44,
-.compra45 {
+.compra45,
+.compra46 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -344,7 +348,8 @@
 .compra42 a,
 .compra43 a,
 .compra44 a,
-.compra45 a {
+.compra45 a,
+.compra46 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -397,7 +402,8 @@
 .compra42 a:hover,
 .compra43 a:hover,
 .compra44 a:hover,
-.compra45 a:hover {
+.compra45 a:hover,
+.compra46 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
@@ -513,7 +519,8 @@
     .img42,
     .img43,
     .img44,
-    .img45 {
+    .img45,
+    .img46 {
         position: relative;
         width: 50px;
         margin-left: 60px;
@@ -563,7 +570,8 @@
     .compra42,
     .compra43,
     .compra44,
-    .compra45 {
+    .compra45,
+    .compra46 {
         position: relative;
         margin-left: -50px;
         padding: 10px;
@@ -615,7 +623,8 @@
     .texto42,
     .texto43,
     .texto44,
-    .texto45 {
+    .texto45,
+    .texto46 {
         position: relative;
         font-size: 10px;
         margin-top: 20px;
@@ -667,7 +676,8 @@
     .compra42 a,
     .compra43 a,
     .compra44 a,
-    .compra45 a {
+    .compra45 a,
+    .compra46 a {
         position: relative;
         padding: 10px;
         font-size: 10px;
