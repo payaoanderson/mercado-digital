@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+    cursor: progress;
 
 }
 
@@ -124,7 +125,8 @@
 .img43,
 .img44,
 .img45,
-.img46 {
+.img46,
+.img47 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -178,7 +180,8 @@
 .texto43,
 .texto44,
 .texto45,
-.texto46 {    
+.texto46,
+.texto47 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -236,7 +239,8 @@
 .texto43 :hover,
 .texto44 :hover,
 .texto45 :hover,
-.texto46 :hover{
+.texto46 :hover,
+.texto47 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -297,7 +301,8 @@
 .compra43,
 .compra44,
 .compra45,
-.compra46 {
+.compra46,
+.compra47 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -349,7 +354,8 @@
 .compra43 a,
 .compra44 a,
 .compra45 a,
-.compra46 a {
+.compra46 a,
+.compra47 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -403,7 +409,8 @@
 .compra43 a:hover,
 .compra44 a:hover,
 .compra45 a:hover,
-.compra46 a:hover {
+.compra46 a:hover,
+.compra47 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
@@ -520,7 +527,8 @@
     .img43,
     .img44,
     .img45,
-    .img46 {
+    .img46,
+    .img47 {
         position: relative;
         width: 50px;
         margin-left: 60px;
@@ -571,7 +579,8 @@
     .compra43,
     .compra44,
     .compra45,
-    .compra46 {
+    .compra46,
+    .compra47 {
         position: relative;
         margin-left: -50px;
         padding: 10px;
@@ -624,7 +633,8 @@
     .texto43,
     .texto44,
     .texto45,
-    .texto46 {
+    .texto46,
+    .texto47 {
         position: relative;
         font-size: 10px;
         margin-top: 20px;
@@ -677,7 +687,8 @@
     .compra43 a,
     .compra44 a,
     .compra45 a,
-    .compra46 a {
+    .compra46 a,
+    .compra47 a {
         position: relative;
         padding: 10px;
         font-size: 10px;
