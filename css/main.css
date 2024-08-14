@@ -126,7 +126,9 @@
 .img45,
 .img46,
 .img47,
-.img48 {
+.img48,
+.img49,
+.img50 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -182,7 +184,9 @@
 .texto45,
 .texto46,
 .texto47,
-.texto48 {    
+.texto48,
+.texto49,
+.texto50 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -242,7 +246,9 @@
 .texto45 :hover,
 .texto46 :hover,
 .texto47 :hover,
-.texto48 :hover{
+.texto48 :hover,
+.texto49 :hover,
+.texto50 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -305,7 +311,9 @@
 .compra45,
 .compra46,
 .compra47,
-.compra48 {
+.compra48,
+.compra49,
+.compra50 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -359,7 +367,9 @@
 .compra45 a,
 .compra46 a,
 .compra47 a,
-.compra48 a {
+.compra48 a,
+.compra49 a,
+.compra50 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -415,7 +425,9 @@
 .compra45 a:hover,
 .compra46 a:hover,
 .compra47 a:hover,
-.compra48 a:hover {
+.compra48 a:hover,
+.compra49 a:hover,
+.compra50 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
@@ -534,7 +546,9 @@
     .img45,
     .img46,
     .img47,
-    .img48 {
+    .img48,
+    .img49,
+    .img50 {
         position: relative;
         width: 50px;
         margin-left: 60px;
@@ -587,7 +601,9 @@
     .compra45,
     .compra46,
     .compra47,
-    .compra48 {
+    .compra48,
+    .compra49,
+    .compra50 {
         position: relative;
         margin-left: -50px;
         padding: 10px;
@@ -642,7 +658,9 @@
     .texto45,
     .texto46,
     .texto47,
-    .texto48 {
+    .texto48,
+    .texto49,
+    .texto50 {
         position: relative;
         font-size: 10px;
         margin-top: 20px;
@@ -697,7 +715,9 @@
     .compra45 a,
     .compra46 a,
     .compra47 a,
-    .compra48 a {
+    .compra48 a,
+    .compra49 a,
+    .compra50 a {
         position: relative;
         padding: 10px;
         font-size: 10px;
