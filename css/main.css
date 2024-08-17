@@ -52,6 +52,12 @@
 
 }
 
+
+.f5{
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
 .texto {
     text-align: center;
     margin-bottom: 30px;
@@ -68,8 +74,21 @@
     margin-left: -150px;
     background-color: green;
     width: 52px;
-    border-radius: 15px;
+    border-radius: 10px 10px 10px 10px;
      
+}
+
+#buscar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+#buscar:hover{
+    background-color: black;
+    padding: 5px;
 }
 
 
