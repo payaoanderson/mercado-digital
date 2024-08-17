@@ -8,6 +8,7 @@
 
 }
 
+
 /* Estilos para o cabeçalho */
 .cabeça {
     background-color: #333;
@@ -49,7 +50,9 @@
 /* Estilos para o conteúdo principal */
 .container-principal {
     padding: 20px;
-
+    border: 30px solid red;
+    box-shadow: inset 10px 10px 10px 10px black;
+    
 }
 
 
@@ -78,7 +81,12 @@
      
 }
 
-#buscar{
+
+.icone:hover{
+    background-color: white;
+}
+
+#atualizaraPaginaou{
     padding: 10px;
     border-radius: 10px;
     background-color: red;
@@ -86,7 +94,7 @@
     color: white;
 }
 
-#buscar:hover{
+#atualizaraPaginaou:hover{
     background-color: black;
     padding: 5px;
 }
