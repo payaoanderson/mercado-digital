@@ -161,6 +161,64 @@
     position: relative;
     text-align: center;
     padding: 20px;
+    
+
+}
+
+
+.img1 :hover,
+.img2 :hover,
+.img3 :hover,
+.img4 :hover,
+.img5 :hover,
+.img6 :hover,
+.img7 :hover,
+.img8 :hover,
+.img9 :hover,
+.img10 :hover,
+.img11 :hover,
+.img12 :hover,
+.img13 :hover,
+.img15 :hover,
+.img16 :hover,
+.img17 :hover,
+.img18 :hover,
+.img19 :hover,
+.img20 :hover,
+.img21 :hover,
+.img22 :hover,
+.img23 :hover,
+.img24 :hover,
+.img25 :hover,
+.img26 :hover,
+.img27 :hover,
+.img28 :hover,
+.img29 :hover,
+.img30 :hover,
+.img31 :hover,
+.img32 :hover,
+.img33 :hover,
+.img34 :hover,
+.img35 :hover,
+.img36 :hover,
+.img37 :hover,
+.img38 :hover,
+.img39 :hover,
+.img40 :hover,
+.img41 :hover,
+.img42 :hover,
+.img43 :hover,
+.img44 :hover,
+.img45 :hover,
+.img46 :hover,
+.img47 :hover,
+.img48 :hover,
+.img49 :hover,
+.img50 :hover {
+    padding: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+    cursor: pointer;
+    
 
 }
 
@@ -282,6 +340,7 @@
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 10px 10px 10px 10px black;
 }
 
 .imagens img {
@@ -460,6 +519,7 @@
     position: relative;
     background-color: black;
     padding: 10px;
+    box-shadow: 10px 10px 10px 10px red;
 }
 
 /* Estilos para o rodapé */
