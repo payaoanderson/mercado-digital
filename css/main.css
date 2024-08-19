@@ -157,7 +157,8 @@
 .img47,
 .img48,
 .img49,
-.img50 {
+.img50,
+.img51 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -214,7 +215,8 @@
 .img47 :hover,
 .img48 :hover,
 .img49 :hover,
-.img50 :hover {
+.img50 :hover,
+.img51 :hover {
     padding: 5px;
     box-shadow: 5px 5px 5px 5px black;
     cursor: pointer;
@@ -273,7 +275,8 @@
 .texto47,
 .texto48,
 .texto49,
-.texto50 {    
+.texto50,
+.texto51 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -335,7 +338,8 @@
 .texto47 :hover,
 .texto48 :hover,
 .texto49 :hover,
-.texto50 :hover{
+.texto50 :hover,
+.texto51 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -401,7 +405,8 @@
 .compra47,
 .compra48,
 .compra49,
-.compra50 {
+.compra50,
+.compra51 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -457,7 +462,8 @@
 .compra47 a,
 .compra48 a,
 .compra49 a,
-.compra50 a {
+.compra50 a,
+.compra51 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -515,7 +521,8 @@
 .compra47 a:hover,
 .compra48 a:hover,
 .compra49 a:hover,
-.compra50 a:hover {
+.compra50 a:hover,
+.compra51 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
@@ -637,7 +644,8 @@
     .img47,
     .img48,
     .img49,
-    .img50 {
+    .img50,
+    .img51 {
         position: relative;
         width: 50px;
         margin-left: 60px;
@@ -692,7 +700,8 @@
     .compra47,
     .compra48,
     .compra49,
-    .compra50 {
+    .compra50,
+    .compra51 {
         position: relative;
         margin-left: -50px;
         padding: 10px;
@@ -749,7 +758,8 @@
     .texto47,
     .texto48,
     .texto49,
-    .texto50 {
+    .texto50,
+    .texto51 {
         position: relative;
         font-size: 10px;
         margin-top: 20px;
@@ -806,7 +816,8 @@
     .compra47 a,
     .compra48 a,
     .compra49 a,
-    .compra50 a {
+    .compra50 a,
+    .compra51 a {
         position: relative;
         padding: 10px;
         font-size: 10px;
