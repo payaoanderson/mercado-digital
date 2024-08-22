@@ -158,7 +158,8 @@
 .img48,
 .img49,
 .img50,
-.img51 {
+.img51,
+.img52 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -216,7 +217,8 @@
 .img48 :hover,
 .img49 :hover,
 .img50 :hover,
-.img51 :hover {
+.img51 :hover,
+.img52 :hover {
     padding: 5px;
     box-shadow: 5px 5px 5px 5px black;
     cursor: pointer;
@@ -276,7 +278,8 @@
 .texto48,
 .texto49,
 .texto50,
-.texto51 {    
+.texto51,
+.texto52 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -339,7 +342,8 @@
 .texto48 :hover,
 .texto49 :hover,
 .texto50 :hover,
-.texto51 :hover{
+.texto51 :hover,
+.texto52 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -406,7 +410,8 @@
 .compra48,
 .compra49,
 .compra50,
-.compra51 {
+.compra51,
+.compra52 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -463,7 +468,8 @@
 .compra48 a,
 .compra49 a,
 .compra50 a,
-.compra51 a {
+.compra51 a,
+.compra52 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -522,7 +528,8 @@
 .compra48 a:hover,
 .compra49 a:hover,
 .compra50 a:hover,
-.compra51 a:hover {
+.compra51 a:hover,
+.compra52 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
@@ -581,266 +588,29 @@
     }
 
     .imagens {
+        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
     }
 
-    .container-principal {
-        margin-left: 20px;
+    .img {
+        width: 100%;
     }
 
-    .texto h1 {
-        font-size: 24px;
-    }
-
-    .abertura {
-        font-size: 16px;
-    }
-
-    .img1,
-    .img2,
-    .img3,
-    .img4,
-    .img5,
-    .img6,
-    .img7,
-    .img8,
-    .img9,
-    .img10,
-    .img11,
-    .img12,
-    .img13,
-    .img15,
-    .img16,
-    .img17,
-    .img18,
-    .img19,
-    .img20,
-    .img21,
-    .img22,
-    .img23,
-    .img24,
-    .img25,
-    .img26,
-    .img27,
-    .img28,
-    .img29,
-    .img30,
-    .img31,
-    .img32,
-    .img33,
-    .img34,
-    .img35,
-    .img36,
-    .img37,
-    .img38,
-    .img39,
-    .img40,
-    .img41,
-    .img42,
-    .img43,
-    .img44,
-    .img45,
-    .img46,
-    .img47,
-    .img48,
-    .img49,
-    .img50,
-    .img51 {
-        position: relative;
-        width: 50px;
-        margin-left: 60px;
-        padding: 20px;
-    }
-
-    .compra1,
-    .compra2,
-    .compra3,
-    .compra4,
-    .compra5,
-    .compra6,
-    .compra7,
-    .compra8,
-    .compra9,
-    .compra10,
-    .compra11,
-    .compra12,
-    .compra13,
-    .compra15,
-    .compra16,
-    .compra17,
-    .compra18,
-    .compra19,
-    .compra20,
-    .compra21,
-    .compra22,
-    .compra23,
-    .compra24,
-    .compra25,
-    .compra26,
-    .compra27,
-    .compra28,
-    .compra29,
-    .compra30,
-    .compra31,
-    .compra32,
-    .compra33,
-    .compra34,
-    .compra35,
-    .compra36,
-    .compra37,
-    .compra38,
-    .compra39,
-    .compra40,
-    .compra41,
-    .compra42,
-    .compra43,
-    .compra44,
-    .compra45,
-    .compra46,
-    .compra47,
-    .compra48,
-    .compra49,
-    .compra50,
-    .compra51 {
-        position: relative;
-        margin-left: -50px;
-        padding: 10px;
-        margin-top: -20px;
-    }
-
-
-    .texto1,
-    .texto2,
-    .texto3,
-    .texto4,
-    .texto5,
-    .texto6,
-    .texto7,
-    .texto8,
-    .texto9,
-    .texto10,
-    .texto11,
-    .texto12,
-    .texto13,
-    .texto14,
-    .texto15,
-    .texto16,
-    .texto17,
-    .texto18,
-    .texto19,
-    .texto20,
-    .texto21,
-    .texto22,
-    .texto23,
-    .texto24,
-    .texto25,
-    .texto26,
-    .texto27,
-    .texto28,
-    .texto29,
-    .texto30,
-    .texto31,
-    .texto32,
-    .texto33,
-    .texto34,
-    .texto35,
-    .texto36,
-    .texto37,
-    .texto38,
-    .texto39,
-    .texto40,
-    .texto41,
-    .texto42,
-    .texto43,
-    .texto44,
-    .texto45,
-    .texto46,
-    .texto47,
-    .texto48,
-    .texto49,
-    .texto50,
-    .texto51 {
-        position: relative;
-        font-size: 10px;
-        margin-top: 20px;
-        padding: 20px;
-    }
-
-
-
-    .compra1 a,
-    .compra2 a,
-    .compra3 a,
-    .compra4 a,
-    .compra5 a,
-    .compra6 a,
-    .compra7 a,
-    .compra8 a,
-    .compra9 a,
-    .compra10 a,
-    .compra11 a,
-    .compra12 a,
-    .compra13 a,
-    .compra15 a,
-    .compra16 a,
-    .compra17 a,
-    .compra18 a,
-    .compra19 a,
-    .compra20 a,
-    .compra21 a,
-    .compra22 a,
-    .compra23 a,
-    .compra24 a,
-    .compra25 a,
-    .compra26 a,
-    .compra27 a,
-    .compra28 a,
-    .compra29 a,
-    .compra30 a,
-    .compra31 a,
-    .compra32 a,
-    .compra33 a,
-    .compra34 a,
-    .compra35 a,
-    .compra36 a,
-    .compra37 a,
-    .compra38 a,
-    .compra39 a,
-    .compra40 a,
-    .compra41 a,
-    .compra42 a,
-    .compra43 a,
-    .compra44 a,
-    .compra45 a,
-    .compra46 a,
-    .compra47 a,
-    .compra48 a,
-    .compra49 a,
-    .compra50 a,
-    .compra51 a {
-        position: relative;
-        padding: 10px;
+    .compra {
+        display: block;
+        float: right;
+        margin: -20px 0 10px 0;
         font-size: 10px;
         color: white;
     }
 
-
-
-
-    #rodape {
-        padding: 10px 0;
+    .texto {
+        font-size: 10px;
+        margin: 10px 0;
     }
 
-    #rodape h6 {
-        font-size: 8px;
-    }
-
-    #rodape p {
-        font-size: 8px;
-
-    }
-
-    .politica {
-        font-size: 8px;
+    #rodape h6, #rodape p, .politica {
+        font-size: 10px;
     }
 }
