@@ -1,0 +1,149 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Registro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container" id="login-form">
+            <h2>Login</h2>
+            <form id="login">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" required>
+                <label for="login-password">Senha:</label>
+                <input type="password" id="login-password" required>
+                <button type="submit">Login</button>
+                <p>Não tem uma conta? <a href="#" onclick="toggleForm('register-form')">Registre-se</a></p>
+            </form>
+        </div>
+        
+        <div class="form-container" id="register-form" style="display: none;">
+            <h2>Registro</h2>
+            <form id="register">
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" required>
+                <label for="register-password">Senha:</label>
+                <input type="password" id="register-password" required>
+                <label for="register-confirm-password">Confirmar Senha:</label>
+                <input type="password" id="register-confirm-password" required>
+                <button type="submit">Registrar</button>
+                <p>Já tem uma conta? <a href="#" onclick="toggleForm('login-form')">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Alterna entre os formulários de login e registro
+        function toggleForm(formId) {
+            document.getElementById('login-form').style.display = 'none';
+            document.getElementById('register-form').style.display = 'none';
+            document.getElementById(formId).style.display = 'block';
+        }
+
+        // Registra um novo usuário
+        document.getElementById('register').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('register-email').value;
+            const password = document.getElementById('register-password').value;
+            const confirmPassword = document.getElementById('register-confirm-password').value;
+
+            if (password !== confirmPassword) {
+                alert('As senhas não coincidem!');
+                return;
+            }
+
+            if (localStorage.getItem(email)) {
+                alert('Usuário já registrado!');
+                return;
+            }
+
+            localStorage.setItem(email, password);
+            alert('Registrado com sucesso!');
+            toggleForm('login-form');
+        });
+
+        // Faz login do usuário
+        document.getElementById('login').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+
+            const storedPassword = localStorage.getItem(email);
+
+            if (storedPassword && storedPassword === password) {
+                alert('Login bem-sucedido!');
+                // Redirecionar ou exibir conteúdo protegido
+                // window.location.href = 'pagina-protegida.html';
+            } else {
+                alert('Email ou senha incorretos!');
+            }
+        });
+    </script>
+</body>
+</html> -->
