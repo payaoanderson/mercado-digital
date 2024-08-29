@@ -161,7 +161,8 @@
 .img51,
 .img52,
 .img53,
-.img54 {
+.img54,
+.img55 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -222,7 +223,8 @@
 .img51 :hover,
 .img52 :hover,
 .img53 :hover,
-.img54 :hover {
+.img54 :hover,
+.img55 :hover {
     padding: 5px;
     box-shadow: 5px 5px 5px 5px black;
     cursor: pointer;
@@ -285,7 +287,8 @@
 .texto51,
 .texto52,
 .texto53,
-.texto54 {    
+.texto54,
+.texto55 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -351,7 +354,8 @@
 .texto51 :hover,
 .texto52 :hover,
 .texto53 :hover,
-.texto54 :hover{
+.texto54 :hover,
+.texto55 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -421,7 +425,8 @@
 .compra51,
 .compra52,
 .compra53,
-.compra54 {
+.compra54,
+.compra55 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -481,7 +486,8 @@
 .compra51 a,
 .compra52 a,
 .compra53 a,
-.compra54 a {
+.compra54 a,
+.compra55 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -543,7 +549,8 @@
 .compra51 a:hover,
 .compra52 a:hover,
 .compra53 a:hover,
-.compra54 a:hover {
+.compra54 a:hover,
+.compra55 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
