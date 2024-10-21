@@ -57,6 +57,26 @@
 
 
 
+#etiqueta {
+    background-color: #ffcc00; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Fixa no topo */
+    top: 0; /* Alinhado ao topo */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Fica acima de outros elementos */
+    font-size: 1.2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    padding-top: 50px; /* Espaço para evitar sobreposição com a etiqueta */
+}
+
+
+
 
 .f5{
     background-color: white;
