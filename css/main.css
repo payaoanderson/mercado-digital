@@ -23,6 +23,25 @@
     padding: 0 20px;
 }
 
+
+#etiqueta {
+    background-color: #ffcc00; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Fixa no topo */
+    top: 0; /* Alinhado ao topo */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Fica acima de outros elementos */
+    font-size: 1.2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    padding-top: 50px; /* Espaço para evitar sobreposição com a etiqueta */
+}
+
 #cabecalho {
     display: flex;
     justify-content: space-between;
@@ -164,7 +183,8 @@
 .img54,
 .img55,
 .img56,
-.img57 {
+.img57,
+.img58 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -228,7 +248,8 @@
 .img54 :hover,
 .img55 :hover,
 .img56 :hover,
-.img57 :hover {
+.img57 :hover,
+.img58 :hover {
     padding: 5px;
     box-shadow: 5px 5px 5px 5px black;
     cursor: pointer;
@@ -294,7 +315,8 @@
 .texto54,
 .texto55,
 .texto56,
-.texto57 {    
+.texto57,
+.texto58 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -363,7 +385,8 @@
 .texto54 :hover,
 .texto55 :hover,
 .texto56 :hover,
-.texto57 :hover{
+.texto57 :hover,
+.texto58 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -436,7 +459,8 @@
 .compra54,
 .compra55,
 .compra56,
-.compra57 {
+.compra57,
+.compra58 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -499,7 +523,8 @@
 .compra54 a,
 .compra55 a,
 .compra56 a,
-.compra57 a {
+.compra57 a,
+.compra58 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -564,7 +589,8 @@
 .compra54 a:hover,
 .compra55 a:hover,
 .compra56 a:hover,
-.compra57 a:hover {
+.compra57 a:hover,
+.compra58 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
