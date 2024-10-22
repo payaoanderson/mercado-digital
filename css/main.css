@@ -204,7 +204,8 @@ body {
 .img55,
 .img56,
 .img57,
-.img58 {
+.img58,
+.img59 {
     position: relative;
     text-align: center;
     padding: 20px;
@@ -269,7 +270,8 @@ body {
 .img55 :hover,
 .img56 :hover,
 .img57 :hover,
-.img58 :hover {
+.img58 :hover,
+.img59 :hover {
     padding: 5px;
     box-shadow: 5px 5px 5px 5px black;
     cursor: pointer;
@@ -336,7 +338,8 @@ body {
 .texto55,
 .texto56,
 .texto57,
-.texto58 {    
+.texto58,
+.texto59 {    
     padding: 20px;
     background-color: red;
     color: white;
@@ -406,7 +409,8 @@ body {
 .texto55 :hover,
 .texto56 :hover,
 .texto57 :hover,
-.texto58 :hover{
+.texto58 :hover,
+.texto59 :hover{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
@@ -480,7 +484,8 @@ body {
 .compra55,
 .compra56,
 .compra57,
-.compra58 {
+.compra58,
+.compra59 {
     position: relative;
     padding: 20px;
     text-align: center;
@@ -544,7 +549,8 @@ body {
 .compra55 a,
 .compra56 a,
 .compra57 a,
-.compra58 a {
+.compra58 a,
+.compra59 a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -610,7 +616,8 @@ body {
 .compra55 a:hover,
 .compra56 a:hover,
 .compra57 a:hover,
-.compra58 a:hover {
+.compra58 a:hover,
+.compra59 a:hover {
     position: relative;
     background-color: black;
     padding: 10px;
