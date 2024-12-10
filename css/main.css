@@ -703,6 +703,10 @@ body {
         margin-left: -60px;
     }
 
+    .descricao {
+        display: none;
+    }
+
     .compra {
         display: block;
         float: right;
